@@ -1,0 +1,206 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+}
+
+
+
+.gmail{
+
+    padding: 10px;
+}
+.görsel{
+
+    padding: 10px;
+}
+
+img[alt="fotoğraf"]{
+    width: 32px;
+    height: 32px;
+    border-radius: 16px;
+    position: relative;
+    top: 4px;
+}
+
+#bento{
+    position: relative;
+    top: 5px;
+    opacity: 0.5;
+}
+
+.menüimg{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.menüimg:hover{
+    background-color: rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 13px;
+    font-weight: 400;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.logo{
+    margin: 78px auto 30px;
+    width: max-content;
+    height: max-content;
+}
+
+.search{
+    width: 584px;
+    height: 46px;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 23px;
+}
+
+.search:hover{
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+img[alt="büyüteç"]{
+    height: 20px;
+    opacity: 0.5;
+}
+
+img[alt="microphone"]{
+    height: 24px;
+    cursor: pointer;
+}
+
+#arama{
+    width: 400px;
+    height: 39px;
+    border: none;
+    outline: none;
+}
+
+#arama:visited{
+    border: 0px solid;
+}
+
+img[alt="klavye"]{
+    width: 20px;
+    cursor: pointer;
+}
+
+.buttons{
+    width: max-content;
+    margin: 10px auto;
+
+}
+
+.ara{
+    margin: 20px 5px;
+    padding: 10px 20px;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    background-color: #f8f9fa;
+    color: #3c4043;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.şans{
+    margin: 20px 5px;
+    padding: 10px 20px;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    background-color: #f8f9fa;
+    color: #3c4043;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.ara:hover{
+    box-shadow:  0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 1px 2px 0 rgba(0, 0, 0, 0.19);
+}
+
+.şans:hover{
+    box-shadow:  0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 1px 2px 0 rgba(0, 0, 0, 0.19);
+}
+
+.p1{
+    margin: auto;
+    width: max-content;
+    font-size: 13px;
+    color: #222;
+}
+
+.lang{
+    color: blue;
+}
+
+.lang:hover{
+    text-decoration: underline;
+}
+
+footer{
+    margin-top: 210px;
+}
+
+.türkiye{
+    width: 100%;
+    background-color: #f2f2f2;
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: rgba(0,0,0,.54);
+}
+
+.son{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    background-color: #f2f2f2;
+    color: rgba(0,0,0,.54);
+}
+
+.list1{
+    width: 27%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+}
+
+.liste{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.54);
+}
+
+.list2{
+    width: 20%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+}
